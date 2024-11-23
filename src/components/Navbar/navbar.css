@@ -1,0 +1,23 @@
+/* .logo {
+    width: 200px;
+    border-radius: 15px;
+} */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: 2px solid black;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.navbar ul li {
+    list-style: none;
+}
