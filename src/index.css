@@ -12,3 +12,13 @@ body{
   background: #161513;
   color: white;
 }
+
+html {
+  scroll-behavior: smooth;  /* Allows smooth scrolling between sections */
+}
+
+
+/* html, body {
+  overflow: hidden;
+  height: 100%;
+} */
