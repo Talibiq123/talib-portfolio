@@ -10,7 +10,7 @@ const Hero = () => {
       {/* <img src={dp} alt="" /> */}
       <h1>Hello, I'm Mohd Talib.</h1>
       <p>
-        Hi there! I'm a passionate frontend developer eager to create beautiful,
+        a passionate frontend developer eager to create beautiful,
         responsive, and user-friendly websites. I specialize in turning ideas
         into digital experiences, and I'm constantly learning to enhance my
         skills.
@@ -18,7 +18,7 @@ const Hero = () => {
       <h2>Let's Create Something Amazing.</h2>
       <div className="hero-action">
         <div className="hero-connect">Connect with Me</div>
-        <div className="hero-resume">My Resume</div>
+        <div className="hero-resume"><a href='/resume.pdf' download="Resume_Mohd_Talib.pdf">My Resume</a></div>
       </div>
     </div>
   );

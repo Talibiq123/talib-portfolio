@@ -14,11 +14,14 @@ body{
 }
 
 html {
-  scroll-behavior: smooth;  /* Allows smooth scrolling between sections */
+  scroll-behavior: smooth;
 }
 
+body {
+  overflow: auto;
+  scrollbar-width: none;
+}
 
-/* html, body {
-  overflow: hidden;
-  height: 100%;
-} */
+body::-webkit-scrollbar {
+  display: none;
+}
