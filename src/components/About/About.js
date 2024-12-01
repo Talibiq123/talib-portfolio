@@ -16,8 +16,8 @@ const About = () => {
         </div>
         <div class="about-right">
           <div class="about-para">
-            <p>As a fresher React developer, I am enthusiastic about creating dynamic and responsive web applications. With a solid understanding of React's core concepts, including components, props, state management, and lifecycle methods, I am eager to apply my knowledge to real-world projects. I have hands-on experience building user-friendly interfaces and leveraging tools like React Router and context API for efficient application routing and state handling. My strong problem-solving skills and willingness to learn make me adaptable to new challenges and technologies. I am excited to contribute to innovative projects while enhancing my skills in modern front-end development.</p>
-            <p>I am passionate about building responsive and interactive web applications. I have a strong grasp of React concepts like components, props, and state management, with hands-on experience in creating user-friendly interfaces. Eager to learn and grow, I am ready to contribute to innovative projects while enhancing my front-end development skills.</p>
+            <p>As a fresher React developer, I am enthusiastic about creating dynamic and responsive web applications. With a solid understanding of React's core concepts, I am eager to apply my knowledge to real-world projects. I have hands-on experience building user-friendly interfaces. My problem-solving skills and willingness to learn make me adaptable to new challenges and technologies. I am excited to contribute to innovative projects while enhancing my skills in modern front-end development.</p>
+            <p>My problem-solving abilities and enthusiasm for learning make me adaptable to new challenges and technologies. I am excited to contribute to innovative projects while continuously enhancing my skills in modern front-end development.</p>
           </div>
           <div class="about-skills">
             <div class="about-skill">
