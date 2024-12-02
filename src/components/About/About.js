@@ -1,7 +1,7 @@
-import React from 'react';
-import './About.css';
-import theme_pattern from '../../Asssets/theme_pattern.svg';
-import profile_image from '../../Asssets/profile_img.svg'
+import React from "react";
+import "./About.css";
+import theme_pattern from "../../Asssets/theme_pattern.svg";
+import profile_image from "../../Asssets/profile_img.svg";
 
 const About = () => {
   return (
@@ -16,15 +16,35 @@ const About = () => {
         </div>
         <div class="about-right">
           <div class="about-para">
-            <p>As a fresher React developer, I am enthusiastic about creating dynamic and responsive web applications. With a solid understanding of React's core concepts, I am eager to apply my knowledge to real-world projects. I have hands-on experience building user-friendly interfaces. My problem-solving skills and willingness to learn make me adaptable to new challenges and technologies. I am excited to contribute to innovative projects while enhancing my skills in modern front-end development.</p>
-            <p>My problem-solving abilities and enthusiasm for learning make me adaptable to new challenges and technologies. I am excited to contribute to innovative projects while continuously enhancing my skills in modern front-end development.</p>
+            <p>
+              As a fresher React developer, I am passionate about building
+              dynamic, responsive web applications. With a strong grasp of
+              React's core concepts and hands-on experience in creating various
+              projects, I am eager to apply my skills to real-world projects. My
+              adaptability and problem-solving mindset drive me to embrace
+              challenges and learn new technologies.
+            </p>
+            <p>
+              I look forward to contributing to innovative projects while
+              continually improving my front-end development skills.
+            </p>
           </div>
           <div class="about-skills">
             <div class="about-skill">
-              <p>HTML & CSS</p><hr style={{width: "50%"}} />
-              <p>CSS</p><hr style={{width: "60%"}} />
-              <p>JavaScript</p><hr style={{width: "70%"}} />
-              <p>React JS</p><hr style={{width: "80%"}} />
+              <p>HTML</p>
+              <hr style={{ width: "90%" }} />
+            </div>
+            <div class="about-skill">
+              <p>CSS</p>
+              <hr style={{ width: "60%" }} />
+            </div>
+            <div class="about-skill">
+              <p>JavaScript</p>
+              <hr style={{ width: "70%" }} />
+            </div>
+            <div class="about-skill">
+              <p>React JS</p>
+              <hr style={{ width: "80%" }} />
             </div>
           </div>
         </div>
@@ -44,7 +64,6 @@ const About = () => {
           <h1>15+</h1>
           <p>HAPPY CLIENTS</p>
         </div>
-        <hr />
       </div>
     </div>
   );
